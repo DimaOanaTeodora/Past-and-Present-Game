@@ -1,13 +1,13 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://src/Actors/Enemy.gd" type="Script" id=1]
-[ext_resource path="res://assets/enemy2.png" type="Texture" id=2]
+[ext_resource path="res://assets/enemy4.png" type="Texture" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 52, 62 )
+extents = Vector2( 64.8979, 67.2992 )
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 52, 9 )
+extents = Vector2( 64.3366, 9 )
 
 [node name="EnemyLevel12" type="KinematicBody2D"]
 position = Vector2( 1, 0 )
@@ -21,12 +21,12 @@ scale = Vector2( 0.971545, 0.996774 )
 texture = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 2, -83 )
+position = Vector2( 2, -77 )
 shape = SubResource( 1 )
 
 [node name="VisibilityEnabler2D" type="VisibilityEnabler2D" parent="."]
-position = Vector2( 2, -83.25 )
-scale = Vector2( 5.2, 2.975 )
+position = Vector2( 2.84185, -83.25 )
+scale = Vector2( 6.46277, 2.975 )
 process_parent = true
 physics_process_parent = true
 

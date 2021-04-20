@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://src/Objects/Waypoints.gd" type="Script" id=1]
+
+[node name="Waypoints" type="Node2D"]
+position = Vector2( 55.6414, 249.267 )
+script = ExtResource( 1 )
+
+[node name="Start" type="Position2D" parent="."]
+position = Vector2( 441.212, -188.054 )
+
+[node name="Start2" type="Position2D" parent="."]
+position = Vector2( 758.401, 21.3113 )
+
+[node name="Start3" type="Position2D" parent="."]
+position = Vector2( 462.319, 314.873 )
+
+[node name="Start4" type="Position2D" parent="."]
+position = Vector2( 159.938, 35.1706 )

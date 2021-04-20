@@ -2,6 +2,8 @@ extends "res://src/Actors/Actor.gd"
 
 func _ready() -> void:
 	set_physics_process(false)
+	if speed.x <0 :
+		$enemy.scale.x *= -1.0
 	_velocity.x = -speed.x
 
 func _on_StompDetector_body_entered(body: PhysicsBody2D) -> void:
@@ -14,6 +16,7 @@ func _physics_process(delta: float) -> void:
 	_velocity.y += gravity * delta
 	if is_on_wall():
 		_velocity.x *= -1.0
+		$enemy.scale.x *= -1.0 #rotatie imagine inamic cand isi schimba directia
 	_velocity.y =  move_and_slide(_velocity, FLOOR_NORMAL).y
 		 
 

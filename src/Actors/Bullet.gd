@@ -7,7 +7,7 @@ export var speed = 3
 
 
 func _ready():
-	look_vec = player.position - global_position #pozitia playerului - pozitia inmicului 
+	look_vec = player.position - global_position #pozitia playerului - pozitia inamicului 
 	look_vec.y -= 50 # pentru a fi mai orientate catre player
 func _physics_process(delta):	
 	move = Vector2.ZERO
