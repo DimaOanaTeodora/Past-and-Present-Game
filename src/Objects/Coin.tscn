@@ -67,6 +67,7 @@ tracks/1/keys = {
 
 [node name="Coin" type="Area2D"]
 position = Vector2( 1, -9.98517 )
+scale = Vector2( 0.573, 0.569 )
 collision_layer = 4
 script = ExtResource( 2 )
 
