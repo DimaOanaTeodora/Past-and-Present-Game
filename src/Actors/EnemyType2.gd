@@ -12,6 +12,8 @@ func _ready() -> void:
 	set_physics_process(false)
 	# daca ar fi negativa ar porni spre stanga => merge spre jucator
 	# directia normala de mers este spre dreapta de-a lungul axei ox
+	if speed.x <0 :
+		$enemy2.scale.x *= -1.0
 	_velocity.x = -speed.x * 1.5
 	
 	
@@ -36,20 +38,13 @@ func fire(): #pentru aruncarea cu bombe
 	bullet.position = get_global_position() # va incepe de la pozitia aruncatorului
 	bullet.player = player # se duce catre player
 	get_parent().add_child(bullet)
-	$Timer.set_wait_time(0.5) #intervalul la care se arunca bombele
+	$Timer.set_wait_time(1.2) #intervalul la care se arunca bombele
 
 func _on_Timer_timeout(): # semnal pt Area2D
 	# rol: pentru a controla cat de rapid inamicul aruna cu bombe
 	if player != null: 
 		fire()
 
-# preluata de la inamicul de tipul 1
-func _on_StompDetector_body_entered(body):
-	print("stomp_detec")
-	if body.global_position.y > get_node("StompDetector").global_position.y:
-		return 
-	get_node("CollisionShape2D").disabled=true
-	queue_free()
 
 
 	

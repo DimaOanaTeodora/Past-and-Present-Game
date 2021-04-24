@@ -4,7 +4,7 @@
 [ext_resource path="res://src/Objects/MovingPlatform2.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 87.9556, 29.8648 )
+extents = Vector2( 97.1669, 33.9567 )
 
 [node name="MovingPlatform2" type="Node2D"]
 position = Vector2( 248.968, 332.026 )
@@ -14,10 +14,12 @@ script = ExtResource( 2 )
 collision_layer = 9
 
 [node name="Sprite" type="Sprite" parent="Platform"]
+position = Vector2( 9.82154, -5.89291 )
+scale = Vector2( 1.10448, 1.13243 )
 texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Platform"]
-position = Vector2( 1.4158, 9.11225 )
+position = Vector2( 11.4158, 5.11225 )
 shape = SubResource( 1 )
 
 [node name="MoveTween" type="Tween" parent="."]
