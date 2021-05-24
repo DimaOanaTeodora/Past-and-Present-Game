@@ -21,7 +21,12 @@ _global_script_class_icons={
 [application]
 
 config/name="Level 70's"
+run/main_scene="res://src/Screens/MainScreen.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+PlayerData="*res://src/Autoload/PlayerData.tscn"
 
 [input]
 

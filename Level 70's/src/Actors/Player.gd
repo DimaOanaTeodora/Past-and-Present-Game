@@ -5,7 +5,8 @@ func _on_EnemyDetector_area_entered(area: Area2D) -> void:
 	_velocity = calculate_stomp_velocity(_velocity, stomp_impulse)
 
 func _on_EnemyDetector_body_entered(body: Node) -> void:
-	queue_free()
+	die()
+	
 # pentru a deschide documentatia apasam Ctrl +click
 #chiar daca extindem se vor rula ambele functii //si pe cea din parinte si pe cea din copil
 func _physics_process(delta: float) -> void:
@@ -41,7 +42,9 @@ func calculate_stomp_velocity ( linear_velocity: Vector2 , impulse : float) ->Ve
 	return out
 
 
-
+func die() -> void:
+	PlayerData.deaths += 1
+	queue_free()
 
 
 
