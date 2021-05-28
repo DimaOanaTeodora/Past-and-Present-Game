@@ -1,7 +1,7 @@
 extends Actor
 
 export var stomp_impulse: = 1000.0 
-
+var snap = Vector2.DOWN setget set_snap
 
 func _on_EnemyDetector_area_entered(area):
 	_velocity = calculate_stomp_velocity(_velocity, stomp_impulse)
@@ -13,7 +13,9 @@ func _physics_process(delta: float) -> void:
 		var is_jump_interrupted: = Input.is_action_just_released("jump") and _velocity.y < 0.0
 		var direction: = get_direction()
 		_velocity = calculate_move_velocity(_velocity, direction, speed, is_jump_interrupted)
-		_velocity = move_and_slide(_velocity, FLOOR_NORMAL)	
+		_velocity = move_and_slide_with_snap(_velocity,snap,FLOOR_NORMAL)	
+		if is_on_floor():
+			_velocity.y = 0
 
 func get_direction() -> Vector2:
 	return Vector2(
@@ -41,7 +43,8 @@ func calculate_stomp_velocity(linear_velocity: Vector2, impulse: float) -> Vecto
 	out.y = -impulse
 	return out
 
-
+func set_snap(new_snap):
+	snap = new_snap
 
 
 

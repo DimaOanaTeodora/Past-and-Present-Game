@@ -13,9 +13,15 @@ _global_script_classes=[ {
 "class": "Actor",
 "language": "GDScript",
 "path": "res://src/Actors/Actor.gd"
+}, {
+"base": "CollisionShape2D",
+"class": "Geometry2D",
+"language": "GDScript",
+"path": "res://src/Objects/Geometry.gd"
 } ]
 _global_script_class_icons={
-"Actor": ""
+"Actor": "",
+"Geometry2D": ""
 }
 
 [application]
