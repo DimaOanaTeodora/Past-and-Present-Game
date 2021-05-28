@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/—Pngtree—jungle background vector design_1197432.jpg-1ca1cb7385f3bbdb67e45b78f4130fe2.stex"
+path="res://.import/enemy3.png-5beb449e230a7b6853f0b02ca89ee9d7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/level 70_s/—Pngtree—jungle background vector design_1197432.jpg"
-dest_files=[ "res://.import/—Pngtree—jungle background vector design_1197432.jpg-1ca1cb7385f3bbdb67e45b78f4130fe2.stex" ]
+source_file="res://assets/level 70_s/enemy3.png"
+dest_files=[ "res://.import/enemy3.png-5beb449e230a7b6853f0b02ca89ee9d7.stex" ]
 
 [params]
 

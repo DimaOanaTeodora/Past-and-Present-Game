@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/—Pngtree—mountain lake reflection landscape background_108873.jpg-d2a4cfaed5dae4f4c8ec0df099beed11.stex"
+path="res://.import/tile1.jpg-5388a94866cf4f0f860605fe652d82ad.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/level 70_s/—Pngtree—mountain lake reflection landscape background_108873.jpg"
-dest_files=[ "res://.import/—Pngtree—mountain lake reflection landscape background_108873.jpg-d2a4cfaed5dae4f4c8ec0df099beed11.stex" ]
+source_file="res://assets/level 70_s/tile1.jpg"
+dest_files=[ "res://.import/tile1.jpg-5388a94866cf4f0f860605fe652d82ad.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/—Pngtree—alpine rock block stone png_4561586.png-2e69ba77cdefa579c74baec3d4646d61.stex"
+path="res://.import/back1 (1).jpg-f207c721fbbcefcec7f1988e248c5910.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/level 70_s/—Pngtree—alpine rock block stone png_4561586.png"
-dest_files=[ "res://.import/—Pngtree—alpine rock block stone png_4561586.png-2e69ba77cdefa579c74baec3d4646d61.stex" ]
+source_file="res://assets/level 70_s/back1 (1).jpg"
+dest_files=[ "res://.import/back1 (1).jpg-f207c721fbbcefcec7f1988e248c5910.stex" ]
 
 [params]
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://src/Actors/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/level 70_s/tile.png" type="Texture" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://src/Objects/Coin.tscn" type="PackedScene" id=5]
 [ext_resource path="res://src/Levels/Level02.tscn" type="PackedScene" id=6]
 [ext_resource path="res://src/Objects/Portal2D.tscn" type="PackedScene" id=7]
+[ext_resource path="res://src/UserInterface/UserInterface.tscn" type="PackedScene" id=10]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 80, 0, 80, 80, 0, 80 )
@@ -86,5 +87,14 @@ position = Vector2( 169.804, 765.594 )
 [node name="Portal2D" parent="." instance=ExtResource( 7 )]
 position = Vector2( 2765.33, 852.194 )
 next_scene = ExtResource( 6 )
+
+[node name="UserInterface2" type="CanvasLayer" parent="."]
+layer = 100
+
+[node name="UserInterface" parent="UserInterface2" instance=ExtResource( 10 )]
+margin_left = 1.29977
+margin_top = -3.8634
+margin_right = 1.2998
+margin_bottom = -3.8634
 
 [editable path="Coin"]
