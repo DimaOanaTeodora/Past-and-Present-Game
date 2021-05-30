@@ -1,9 +1,9 @@
 [gd_scene load_steps=13 format=2]
 
-[ext_resource path="res://assets/tile.png" type="Texture" id=1]
+[ext_resource path="res://assets/M_tile.png" type="Texture" id=1]
 [ext_resource path="res://src/Actors/Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://src/Actors/EnemyLevel11.tscn" type="PackedScene" id=3]
-[ext_resource path="res://assets/backgroundMedieval.png" type="Texture" id=4]
+[ext_resource path="res://assets/M_backgroundMedieval.png" type="Texture" id=4]
 [ext_resource path="res://src/Actors/EnemyLevel12.tscn" type="PackedScene" id=5]
 [ext_resource path="res://src/Objects/Coin.tscn" type="PackedScene" id=6]
 [ext_resource path="res://src/Levels/LevelMedieval2.tscn" type="PackedScene" id=7]
