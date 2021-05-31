@@ -16,6 +16,11 @@ func _physics_process(delta: float) -> void:
 	var direction := get_direction()
 	_velocity = calculate_move_velocity(_velocity,direction, speed, is_jump_interrupted)	
 	_velocity = move_and_slide(_velocity, FLOOR_NORMAL)
+	
+	# viju
+	_velocity = move_and_slide_with_snap(_velocity,snap,FLOOR_NORMAL)    
+	if is_on_floor():
+		_velocity.y = 0
 
 
 func get_direction() -> Vector2:

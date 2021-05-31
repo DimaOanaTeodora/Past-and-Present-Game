@@ -2,7 +2,7 @@
 extends "res://src/Actors/Actor.gd"
 
 # abilitatea de a arunca cu flacari
-onready var BULLET_SCENE = preload ("res://src/Actors/Bullet.tscn")
+onready var BULLET_SCENE = preload ("res://src/Actors/BulletMed.tscn")
 
 var player = null
 var move = Vector2.ZERO

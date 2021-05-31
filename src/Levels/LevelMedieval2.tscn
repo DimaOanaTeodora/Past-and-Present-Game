@@ -11,9 +11,6 @@
 [ext_resource path="res://src/Objects/CoinMedieval.tscn" type="PackedScene" id=9]
 [ext_resource path="res://src/Actors/Witch.tscn" type="PackedScene" id=10]
 
-
-
-
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 76, 0, 76, 77, 0, 77 )
 
@@ -162,6 +159,9 @@ position = Vector2( 2473.05, 4209.44 )
 speed = Vector2( -300, 1000 )
 gravity = 4000.0
 sine_move = 400
+
+[node name="enemy" parent="Horse5" index="0"]
+scale = Vector2( -1, 0.9 )
 
 [node name="CollisionShape2D" parent="Horse5" index="1"]
 position = Vector2( 12, -79.0315 )

@@ -11,9 +11,6 @@
 [ext_resource path="res://src/Objects/MovingPlatformLevel1.tscn" type="PackedScene" id=9]
 [ext_resource path="res://src/Objects/Obstacle.tscn" type="PackedScene" id=10]
 
-
-
-
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 76, 0, 76, 77, 0, 77 )
 
@@ -271,7 +268,7 @@ position = Vector2( 734.577, 2368.82 )
 scale = Vector2( 0.572716, 0.569264 )
 
 [node name="Portal2D" parent="." instance=ExtResource( 8 )]
-position = Vector2( 10333.6, 834.421 )
+position = Vector2( 10329.8, 834.421 )
 next_scene = ExtResource( 7 )
 
 [node name="Obstacle" parent="." instance=ExtResource( 10 )]

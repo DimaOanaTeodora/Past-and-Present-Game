@@ -1,9 +1,7 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://assets/H_portal.png" type="Texture" id=1]
 [ext_resource path="res://src/Objects/Portal2D.gd" type="Script" id=2]
-[ext_resource path="res://src/Levels/Leveltemplate_03.tscn" type="PackedScene" id=3]
-
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 70.9836
@@ -85,7 +83,6 @@ position = Vector2( 0, 2.13589 )
 monitorable = false
 collision_layer = 0
 script = ExtResource( 2 )
-next_scene = ExtResource( 3 )
 
 [node name="portal" type="Sprite" parent="."]
 position = Vector2( 0, -3.82886 )

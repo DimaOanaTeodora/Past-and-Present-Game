@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://assets/M_tiletransparent.png" type="Texture" id=1]
 [ext_resource path="res://src/Actors/PlayerMedieval.tscn" type="PackedScene" id=2]
@@ -9,9 +9,7 @@
 [ext_resource path="res://src/Actors/EnemyLevel31.tscn" type="PackedScene" id=7]
 [ext_resource path="res://src/Objects/Portal2DMedieval.tscn" type="PackedScene" id=8]
 [ext_resource path="res://src/Objects/CoinMedieval.tscn" type="PackedScene" id=9]
-
-
-
+[ext_resource path="res://src/Levels/Level70s0.tscn" type="PackedScene" id=10]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 82, 81, 0.995361, 81, 0.995361, 0, 82, 0 )
@@ -90,7 +88,7 @@ position = Vector2( 2, -78 )
 
 [node name="Portal2D" parent="." instance=ExtResource( 8 )]
 position = Vector2( 8209, 382 )
-next_scene = null
+next_scene = ExtResource( 10 )
 
 [node name="EnemyType2" parent="." instance=ExtResource( 5 )]
 position = Vector2( 2741.18, 5224.58 )

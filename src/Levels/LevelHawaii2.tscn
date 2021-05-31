@@ -2467,7 +2467,7 @@ tracks/1/keys = {
 } ]
 }
 
-[node name="Leveltemplate" type="Node2D"]
+[node name="LevelHwaii2" type="Node2D"]
 position = Vector2( 0, 25.4271 )
 __meta__ = {
 "_edit_vertical_guides_": [ 5005.17 ]

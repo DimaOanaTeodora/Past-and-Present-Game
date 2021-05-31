@@ -9,18 +9,13 @@
 [ext_resource path="res://src/Objects/Portal2D70s.tscn" type="PackedScene" id=7]
 [ext_resource path="res://src/UserInterface/UserInterface.tscn" type="PackedScene" id=8]
 
-
-
-
-
-
-[sub_resource type="ConvexPolygonShape2D" id=3]
+[sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 96, 32, 32, 64, 32, 32, 32, 0 )
 
-[sub_resource type="ConvexPolygonShape2D" id=4]
+[sub_resource type="ConvexPolygonShape2D" id=2]
 points = PoolVector2Array( 0, 0, 96, 0, 96, 64, 0, 64 )
 
-[sub_resource type="TileSet" id=2]
+[sub_resource type="TileSet" id=3]
 0/name = "tile1.jpg 0"
 0/texture = ExtResource( 2 )
 0/tex_offset = Vector2( 0, 0 )
@@ -31,20 +26,20 @@ points = PoolVector2Array( 0, 0, 96, 0, 96, 64, 0, 64 )
 0/navigation_offset = Vector2( 0, 0 )
 0/shape_offset = Vector2( 0, 0 )
 0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-0/shape = SubResource( 3 )
+0/shape = SubResource( 1 )
 0/shape_one_way = false
 0/shape_one_way_margin = 1.0
 0/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 3 ),
+"shape": SubResource( 1 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 }, {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 4 ),
+"shape": SubResource( 2 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 0/z_index = 0
@@ -71,7 +66,7 @@ __meta__ = {
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2( -0.873901, 3.80016 )
-tile_set = SubResource( 2 )
+tile_set = SubResource( 3 )
 cell_size = Vector2( 80, 80 )
 collision_layer = 8
 collision_mask = 0
@@ -118,7 +113,7 @@ position = Vector2( 3232.25, 1621.88 )
 position = Vector2( 4276.46, 1201.44 )
 
 [node name="Portal2D" parent="." instance=ExtResource( 7 )]
-position = Vector2( 9249.98, 550.054 )
+position = Vector2( 9248.09, 550.054 )
 next_scene = ExtResource( 6 )
 
 [node name="Enemy3" parent="." instance=ExtResource( 3 )]

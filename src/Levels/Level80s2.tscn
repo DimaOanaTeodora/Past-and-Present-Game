@@ -9,11 +9,6 @@
 [ext_resource path="res://src/Objects/Portal2D80s.tscn" type="PackedScene" id=7]
 [ext_resource path="res://src/Levels/Level80s3.tscn" type="PackedScene" id=8]
 
-
-
-
-
-
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 80, 0, 80, 80, 0, 80 )
 

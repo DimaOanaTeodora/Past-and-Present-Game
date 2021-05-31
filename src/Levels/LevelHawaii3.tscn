@@ -34,7 +34,7 @@ points = PoolVector2Array( 0, 0, 40, 0, 40, 40, 0, 40 )
 } ]
 0/z_index = 0
 
-[node name="Leveltemplate" type="Node2D"]
+[node name="LevelHawaii3" type="Node2D"]
 __meta__ = {
 "_edit_vertical_guides_": [ 5005.17 ]
 }

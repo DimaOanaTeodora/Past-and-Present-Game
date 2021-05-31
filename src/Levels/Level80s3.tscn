@@ -8,9 +8,6 @@
 [ext_resource path="res://src/Actors/Platform.tscn" type="PackedScene" id=6]
 [ext_resource path="res://src/Actors/EnemyWithBullet.tscn" type="PackedScene" id=7]
 
-
-
-
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 80, 0, 80, 80, 0, 80 )
 
