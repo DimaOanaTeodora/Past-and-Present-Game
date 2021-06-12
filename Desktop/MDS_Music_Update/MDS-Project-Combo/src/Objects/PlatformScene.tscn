@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://src/Objects/Waypoints.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/Objects/MovingPlatform.tscn" type="PackedScene" id=2]
+
+[node name="PlatformScene" type="Node"]
+
+[node name="Waypoints" parent="." instance=ExtResource( 1 )]
+position = Vector2( 51.6567, 250.724 )
+
+[node name="Start" parent="Waypoints" index="0"]
+position = Vector2( 495.89, -192.929 )
+
+[node name="Start2" parent="Waypoints" index="1"]
+position = Vector2( 798.562, 35.7076 )
+
+[node name="MovingPlatform" parent="." instance=ExtResource( 2 )]
+position = Vector2( 366.029, 181.04 )
+waypoints_path = NodePath("../Waypoints")
+
+[node name="CollisionShape2D" parent="MovingPlatform" index="1"]
+position = Vector2( 2.87006, 7.94314 )
+
+[node name="Timer" parent="MovingPlatform" index="2"]
+autostart = false
+
+[editable path="Waypoints"]
+
+[editable path="MovingPlatform"]
