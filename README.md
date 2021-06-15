@@ -1,12 +1,14 @@
-##  ”Past and Present Game”
+##  Past and Present Game :video_game:
 
-[Link Demo YouTube](https://youtu.be/03AMWj5J4ss)
+:diamonds: [Link Demo YouTube](https://youtu.be/03AMWj5J4ss)
 
-### Membrii Echipei
+### Membrii Echipei :hearts:
 * [Coiculescu Veronica 241](https://github.com/veronica242001)
 * [Dima Oana 241](https://github.com/DimaOanaTeodora)
 * [Dirstariu Daria 241](https://github.com/daria68)
 * [Vijulan Stefania 241](https://github.com/StefaniaVijulan)
+
+## Descrierea jocului
 
 Jocul *”Past and Present Game”* a fost creat ca o provocare pentru utilizator. Aceștia se pot bucura de trecerea anilor cu ajutorul celor 12 nivele pe care le punem la dispoziție, dar totodată pot să își aleagă și ce melodie să îi însoțească pe parcursul jocului. Playerii trebuie să colecteze banutii care vor aparea atat in locuri sugestive, dar și în locuri în care nu se așteaptă.
 
@@ -19,7 +21,7 @@ Avansăm în timp și perioada aniilor ‘80 ne întâmpină cu frumusețile sal
 
 Nu în ultimul rand, ajungem sa ne plimbam în prezent unde, cu ajutorul pelicanului, putem să vedem peisajele pe care lumea hawaiană le oferă. În cel de-al nouălea nivel, pelicanul trebuie să aibă grijă ca în călătoria pe care ne-o oferă sa nu ne ciocnim de totemele decoraționale. În următorul nivel, al doilea al acestei perioade, playerul ne conduce într-o pădure tropicala, însă de aceasta data călătoria se complica pentru ca trebuie sa avem grija sa ne ferim de ananasii proaspeți și să găsim drum spre ieșirea din acest labirint natural. În ultimul nivel, după 11 încercări pe care utilizatorul nostru le-a avut de trecut, acesta mai are o ultimă misiune de îndeplinit, aceea de a se bucura de adierea marii, însă trebuie sa fie grija la racii otravitori care nu pot sa fie omorați.
 
-## Backlog and user stories
+## Backlog and User Stories
 Pentru o mai buna organizare am folosit Trello, link-ul este [aici](https://trello.com/b/BtzReJnX/proiect-mds)
 ![image](https://user-images.githubusercontent.com/61796486/122114415-ea9ceb00-ce2b-11eb-8cf7-f31255e2c876.png)
 
