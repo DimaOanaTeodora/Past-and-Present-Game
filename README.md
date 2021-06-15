@@ -2,6 +2,12 @@
 
 [Link Demo YouTube](https://youtu.be/03AMWj5J4ss)
 
+### Membrii Echipei
+* [Coiculescu Veronica 241](https://github.com/veronica242001)
+* [Dima Oana 241](https://github.com/DimaOanaTeodora)
+* [Dirstariu Daria 241](https://github.com/daria68)
+* [Vijulan Stefania 241](https://github.com/StefaniaVijulan)
+
 Jocul *”Past and Present Game”* a fost creat ca o provocare pentru utilizator. Aceștia se pot bucura de trecerea anilor cu ajutorul celor 12 nivele pe care le punem la dispoziție, dar totodată pot să își aleagă și ce melodie să îi însoțească pe parcursul jocului. Playerii trebuie să colecteze banutii care vor aparea atat in locuri sugestive, dar și în locuri în care nu se așteaptă.
 
 În funcție de nivelul la care vă aflați inamicii o să difere.
