@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/Levels/level_base.tscn" type="PackedScene" id=1]
+
+
+[node name="level_1" instance=ExtResource( 1 )]
+color = Color( 0.909804, 0.313726, 0.356863, 1 )
+
+[node name="Label" parent="." index="0"]
+text = "1"
