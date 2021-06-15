@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/The Cranberries - Zombie _Medieval_Bardcore Instrumental Cover_.ogg-43826eb076cb4f29f57144ce5fe5277b.oggstr"
+
+[deps]
+
+source_file="res://src/Audio/The Cranberries - Zombie _Medieval_Bardcore Instrumental Cover_.ogg"
+dest_files=[ "res://.import/The Cranberries - Zombie _Medieval_Bardcore Instrumental Cover_.ogg-43826eb076cb4f29f57144ce5fe5277b.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

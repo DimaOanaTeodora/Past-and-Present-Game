@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Burning Love - Elvis Presley (Instrumental).ogg-fdd80475684b58b472c164b545da0f5e.oggstr"
+
+[deps]
+
+source_file="res://src/Audio/Burning Love - Elvis Presley (Instrumental).ogg"
+dest_files=[ "res://.import/Burning Love - Elvis Presley (Instrumental).ogg-fdd80475684b58b472c164b545da0f5e.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

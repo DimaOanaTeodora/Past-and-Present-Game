@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Bee Gees - Stayin' Alive (Instrumental).ogg-f1032b46cdd98542fcf4c1881f36bffd.oggstr"
+
+[deps]
+
+source_file="res://src/Audio/Bee Gees - Stayin' Alive (Instrumental).ogg"
+dest_files=[ "res://.import/Bee Gees - Stayin' Alive (Instrumental).ogg-f1032b46cdd98542fcf4c1881f36bffd.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

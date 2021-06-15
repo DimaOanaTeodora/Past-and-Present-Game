@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Linkin Park - Numb _ Medieval Style (Bardcore).ogg-f42ee0917bc70c45550068b41f641611.oggstr"
+
+[deps]
+
+source_file="res://src/Audio/Linkin Park - Numb _ Medieval Style (Bardcore).ogg"
+dest_files=[ "res://.import/Linkin Park - Numb _ Medieval Style (Bardcore).ogg-f42ee0917bc70c45550068b41f641611.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

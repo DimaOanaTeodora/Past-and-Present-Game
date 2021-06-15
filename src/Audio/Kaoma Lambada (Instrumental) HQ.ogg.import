@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Kaoma Lambada (Instrumental) HQ.ogg-40aefc5b1fea64b4fded9684db44969c.oggstr"
+
+[deps]
+
+source_file="res://src/Audio/Kaoma Lambada (Instrumental) HQ.ogg"
+dest_files=[ "res://.import/Kaoma Lambada (Instrumental) HQ.ogg-40aefc5b1fea64b4fded9684db44969c.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

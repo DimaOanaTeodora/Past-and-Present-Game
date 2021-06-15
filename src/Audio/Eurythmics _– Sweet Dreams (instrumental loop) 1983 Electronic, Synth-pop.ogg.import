@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Eurythmics _– Sweet Dreams (instrumental loop) 1983 Electronic, Synth-pop.ogg-7b35122eab9ff14cbea59ace250a1ea3.oggstr"
+
+[deps]
+
+source_file="res://src/Audio/Eurythmics _– Sweet Dreams (instrumental loop) 1983 Electronic, Synth-pop.ogg"
+dest_files=[ "res://.import/Eurythmics _– Sweet Dreams (instrumental loop) 1983 Electronic, Synth-pop.ogg-7b35122eab9ff14cbea59ace250a1ea3.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
