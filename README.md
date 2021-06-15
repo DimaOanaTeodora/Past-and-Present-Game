@@ -33,3 +33,10 @@ Pentru o mai buna organizare am folosit Trello, link-ul este [aici](https://trel
 Am facut partea de testare folosind GUT - Godot Unit Testing.
 ![Test](https://user-images.githubusercontent.com/61796486/122114011-79f5ce80-ce2b-11eb-9a5f-b2a80de40ccb.png)
 
+## Code Standrds
+* Convenții de denumire pentru variabile locale, variabile globale, constante și funcții
+* Indentare
+* Codul este ușor de înțeles. Depanare si intretinere usoara.
+* Codul este [documentat](https://github.com/DimaOanaTeodora/MDS-Project/blob/main/MDS_Documentation.docx) 
+* Lungimea funcțiilor nu este mare
+
