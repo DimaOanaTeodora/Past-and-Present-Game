@@ -1,6 +1,19 @@
 ##  Past and Present Game :video_game:
 
-:diamonds: [Link Demo YouTube](https://youtu.be/03AMWj5J4ss)
+:diamonds: [YouTube demo](https://youtu.be/03AMWj5J4ss)
+
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/61749814/167293709-89b040a2-c8e4-48d2-8489-8abb88e26942.png" width="400" height="200" />
+ <img src="https://user-images.githubusercontent.com/61749814/167293730-8117c011-ecff-4809-b3a5-1298b4887dd2.png" width="400" height="200" />
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/61749814/167293737-1dba7828-00e5-49e1-8c1a-638dacb35a65.png" width="400" height="200" />
+ <img src="https://user-images.githubusercontent.com/61749814/167293747-e2da664b-226e-4e09-b5c2-ad8bd66d4cc4.png" width="400" height="200" />
+</p>
+
 
 ### Membrii Echipei :hearts:
 * [Coiculescu Veronica 241](https://github.com/veronica242001)
